@@ -1,6 +1,6 @@
 import { Permission } from "node-appwrite";
-import { db, voteCollection } from "../name";
 import { databases } from "./config";
+import { db, voteCollection } from "../name";
 
 export default async function createVoteCollection() {
     // Creating Collection
