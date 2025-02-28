@@ -1,7 +1,7 @@
 import { db } from "../name";
-import createAnswerCollection from "./answer.collections";
+import createAnswerCollection from "./answer.collection";
 import createCommentCollection from "./comment.collection";
-import createQuestionCollection from "./question.collections";
+import createQuestionCollection from "./question.collection";
 import createVoteCollection from "./vote.collection";
 
 import { databases } from "./config";
